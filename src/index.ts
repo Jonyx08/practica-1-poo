@@ -32,3 +32,7 @@ alumno2.mostrarInformacion(); // Nombre: Maria Lopez, Carnet: 20210002, Nota Fin
 const alumno3 = new Estudiante("Carlos Sanchez", "20210003");
 
 alumno1.actualizarCarnet("20210010");
+
+alumno1.actualizarNota(10);
+
+alumno1.mostrarInformacion(); //Nombre juan perez y al final tendra la nota de 10 con un nuevo carnet
